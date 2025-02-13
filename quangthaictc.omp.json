@@ -21,9 +21,9 @@
             "foreground": "p:white",
             "properties": {
               "windows": "\ueb53",
-              "linux": "\uf17c",
-              "ubuntu": "\uf31b",
-              "macos": "\uf179"
+              "linux": "\ueb53",
+              "ubuntu": "\ueb53",
+              "macos": "\ueb53"
             },
             "style": "plain",
             "template": " {{.Icon}} \u2800",
@@ -90,7 +90,7 @@
               "macos": "\uf179"
             },
             "style": "diamond",
-            "template": " {{.Icon}}{{if .WSL}} (WSL){{end}} ",
+            "template": " {{.Icon}} ",
             "trailing_diamond": "\ue0b0",
             "type": "os"
           }
