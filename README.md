@@ -33,7 +33,7 @@
               "macos": "\uf179"
             },
             "style": "plain",
-            "template": " {{.Icon}}{{if .WSL}} (WSL){{end}}\u2800",
+            "template": " {{.Icon}} \u2800",
             "type": "os"
           },
           {
